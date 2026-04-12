@@ -33,4 +33,7 @@ def test_password_len():
 #2
 def test_password_is_unique():
     """Arka arkaya oluşturulan iki şifrenin farklı olup olmadığını test eder"""
+    password1 = generate_password(10)
+    password2 = generate_password(10)
+    assert password1 != password2
 
