@@ -25,5 +25,9 @@ pytest
 ```
 
 
-## ✍️ Yazar
+## ✍️ DEVELOPERS
 
+```bash
+Kerem
+Deniz
+```
