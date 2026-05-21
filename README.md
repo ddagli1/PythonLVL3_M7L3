@@ -25,9 +25,4 @@ pytest
 ```
 
 
-## ✍️ DEVELOPERS
 
-```bash
-Kerem
-Deniz
-```
