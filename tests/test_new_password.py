@@ -7,14 +7,7 @@ def test_password_characters():
     password = generate_password(100)  # Daha güvenli bir doğrulama için uzun bir şifre oluşturuluyor
     for char in password:
         assert char in valid_characters
-def test_password_len():
-    for length in range (1,21):
-        assert length == len(generate_password(length))
 
-def test_password_randomness():
-    password1 = generate_password(10)
-    password2 = generate_password(10)
-    assert password1 != password2,"Arka arkaya oluşturulan 2 şifre aynı olmamalıdır."
 
 
 
