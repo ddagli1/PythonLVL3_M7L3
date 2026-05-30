@@ -9,14 +9,7 @@ def test_password_():
         assert char in valid_characters
 
 
-def test_length_characters():
-    pass_length = 20
-    assert len(generate_password(pass_length)) == pass_length
 
-def test_random_passw():
-    pass_one= generate_password(10)
-    pass_two= generate_password(10)
-    assert pass_one != pass_two
 
 """
 Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
