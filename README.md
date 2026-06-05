@@ -24,4 +24,7 @@ Daha sonra testleri proje dizininin kök klasöründen şu komutla çalıştıra
 pytest
 ```
 
+# Bu Projede Çalışanlar
 
+Kevser Deniz Dağlı
+Mehmet Alper Güllü
