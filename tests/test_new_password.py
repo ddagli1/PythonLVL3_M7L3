@@ -18,4 +18,7 @@ Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif 
 2. Arka arkaya oluşturulan iki şifrenin farklı olup olmadığını test edin 
 """
 
-
+def test_password_lenght_():
+    """Şifre oluşturulurken 100 karakterli mi test eder"""
+    password = generate_password(100)  # Daha güvenli bir doğrulama için uzun bir şifre oluşturuluyor
+    assert len(password) == 100
