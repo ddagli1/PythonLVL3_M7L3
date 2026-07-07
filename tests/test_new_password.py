@@ -8,7 +8,10 @@ def test_password_():
     for char in password:
         assert char in valid_characters
 
-
+def test_length():
+    password1 = generate_password(124)
+    password2 = generate_password(124)
+    assert password1 != password2
 
 
 """
