@@ -23,5 +23,6 @@ Daha sonra testleri proje dizininin kök klasöründen şu komutla çalıştıra
 ```bash
 pytest
 ```
-
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bu proje kodland projesi
 
