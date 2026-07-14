@@ -1,3 +1,4 @@
+# The file is for developers to test.
 import random
 import string
 
@@ -9,8 +10,11 @@ def generate_password(length=12):
         password += random.choice(characters)
     return password
 
-# Kullanım örneği
-password_length = 12  # Generates a random password of the specified length.
-print("New password:", generate_password(password_length))
+# usage example
+password_length = 12  
+print("New Password(TEST):", generate_password(password_length))
 
-#merhaba
+#TEST
+
+
+
