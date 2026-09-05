@@ -1,3 +1,4 @@
+import random
 import string
 from password.new_password import generate_password,password_length
 
@@ -9,13 +10,14 @@ def test_password_():
         assert char in valid_characters
 
 
+def test_password_randomness():
+    password1 = generate_password(10)
+    password2 = generate_password(10)
+    assert password1 != password2
 
+def test_password_length():
+    for i in range(1,21):
+        assert len(generate_password(i)) == i
 
-"""
-Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
-
-1. Şifrenin uzunluğunun belirtilen uzunlukla eşleşip eşleşmediğini test edin  
-2. Arka arkaya oluşturulan iki şifrenin farklı olup olmadığını test edin 
-"""
 
 
