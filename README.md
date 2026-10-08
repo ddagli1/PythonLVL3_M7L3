@@ -23,4 +23,10 @@ Daha sonra testleri proje dizininin kök klasöründen şu komutla çalıştıra
 ```bash
 pytest
 ```
+bu projede çalışalar:
+kevser deniz dağlı
+ecesu
+muammer
+sarp
+nurettin
 
