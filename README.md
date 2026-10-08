@@ -24,6 +24,3 @@ Daha sonra testleri proje dizininin kök klasöründen şu komutla çalıştıra
 pytest
 ```
 
-
-
-(this project has missing codes)
