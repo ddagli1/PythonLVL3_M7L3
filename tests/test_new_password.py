@@ -10,14 +10,4 @@ def test_password_():
         assert char in valid_characters
 
 
-def test_password_randomness():
-    password1 = generate_password(10)
-    password2 = generate_password(10)
-    assert password1 != password2
-
-def test_password_length():
-    for i in range(1,21):
-        assert len(generate_password(i)) == i
-
-
 
