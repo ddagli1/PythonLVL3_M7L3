@@ -10,4 +10,10 @@ def test_password_():
         assert char in valid_characters
 
 
+"""
+Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
+Daha fazla test yazabilirseniz harika olur!
 
+1. Şifrenin uzunluğunun belirtilen uzunlukla eşleşip eşleşmediğini test edin  
+2. Arka arkaya oluşturulan iki şifrenin farklı olup olmadığını test edin 
+"""
