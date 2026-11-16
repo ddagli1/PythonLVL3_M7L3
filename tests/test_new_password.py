@@ -9,7 +9,13 @@ def test_password_():
     for char in password:
         assert char in valid_characters
 
-
+def test_password_length():
+    password_test = len(generate_password(password_length))
+    assert password_test == password_length
+def test_password_diff():
+    password1 = generate_password(password_length)
+    password2 = generate_password(password_length)
+    assert password1 != password2
 """
 Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
 Daha fazla test yazabilirseniz harika olur!
